@@ -1,10 +1,10 @@
-# Building Twitter again with solidity; 
+By# Building Twitter again with solidity; 
 
   
 
   
 
- ## Introduction 
+ ## Introduction
 
   
 
@@ -270,7 +270,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
   
 
- We call the mapping variable created in chapter 5 `hashtoindex` that takes a key as the hash of the tweet and makes a pair with the length of the tweets variable. Why do we create `hashtoindex` mapping variable? We will know in the next chapter. We named a variable `_temporaryTweet` that is a local variable and doesn't store in the blockchain network. The purpose of `_temporaryTweet` variable is to store the data of creating Tweet types. While we assigned the complete data respectively to the temporary Tweet variable we created and also pushed the temporary Tweet variable to the state variable `tweets`, we need to invoke the event Tweeting to make a Transaction log on this current Transaction. For that, we need to invoke by keyword `emit` following the event name define in chapter five called Tweeting by passing down the exact order of data. At Last, we need to return true because we have successfully created a tweet in the `tweets` state array variable like database and made a Transaction Log on the Transaction block that a Tweet had been created so at then end we listed ```return true```. 
+ We call the mapping variable created as `hashtoindex` that takes a key as the hash of the tweet and makes a pair with the length of the tweets variable. Why do we create `hashtoindex` mapping variable? We will know in the next series. We named a variable `_temporaryTweet` that is a local variable and doesn't store in the blockchain network. The purpose of `_temporaryTweet` variable is to store the data of creating Tweet types. While we assigned the complete data respectively to the temporary Tweet variable we created and also pushed the temporary Tweet variable to the state variable `tweets`, we need to invoke the event Tweeting to make a Transaction log on this current Transaction. For that, we need to invoke by keyword `emit` following the event name define as `Tweeting` by passing down the exact order of data. At Last, we need to return true because we have successfully created a tweet in the `tweets` state array variable like database and made a Transaction Log on the Transaction block that a Tweet had been created so at then end we listed ```return true```. 
 
   
 
@@ -334,7 +334,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
  ``` 
 
- In `getTweetByUser` function we took a parameter as a tweeter address which will then an array of Tweet, the tweeter created. There are 2 for looping in the function in which the first one counts the number of tweets the sender had created and makes a temporary static or fixed array named `_tweet` of Tweet data types. The second for loops is for the assignment of the tweet to the temporary variable created as `__tweet` and at last, it returns the temporary variable by fulfilling the return type as expected. 
+ In `getTweetByUser` function we took a parameter as a tweeter address which will then an array of Tweet, the tweeter created. There are 2 loops in the function in which the first one counts the number of tweets the sender had created and makes a temporary static or fixed array named `_tweet` of Tweet data types. The second loop is for the assignment of the tweet to the temporary variable created as `__tweet` and at last, it returns the temporary variable by fulfilling the return type as expected. 
 
   
 
@@ -494,7 +494,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
   
 
- (6) Answering to <b>Now we need to ask some big and universal questions! How decentralization will help to solve the major issues above listed? And how the second diagram will solve the problem?</b> from chapter 1 
+ (6) Answering to <b>some big and universal questions! How decentralization will help to solve the major issues above listed? And how the second diagram will solve the problem?</b>
 
   
 
