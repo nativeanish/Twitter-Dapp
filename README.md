@@ -1,5 +1,19 @@
 # Building A Decentralized Twitter on the Celo Blockchain 
 
+## Table of Contents
+- [Building A Decentralized Twitter on the Celo Blockchain](#building-a-decentralized-twitter-on-the-celo-blockchain)
+  * [Introduction](#introduction)
+  * [Prerequisites](#prerequisites)
+  * [Intro to Solidity](#intro-to-solidity)
+  * [Getting Our Code Environment Ready](#getting-our-code-environment-ready)
+  * [Structure of a Tweet](#structure-of-a-tweet)
+  * [Creating Tweet's collection and more](#creating-tweet-s-collection-and-more)
+  * [Creating Tweet on the Celo blockchain](#creating-tweet-on-the-celo-blockchain)
+  * [Getting the Tweet which is recorded on the Celo blockchain network](#getting-the-tweet-which-is-recorded-on-the-celo-blockchain-network)
+  * [Final Source Code](#final-source-code)
+  * [Deploying the Contract on the blockchain](#deploying-the-contract-on-the-blockchain)
+  * [Conclusion](#conclusion)
+
 ## Introduction
 In this series, we will create a twitter-like decentralized application that will run without a centralized server and will run on the Celo blockchain. It is 2 part series in which we are on the first series where we will learn how to create a smart contract in solidity for decentralize Twitter and connect with a UI using ReactJs library.  
 
