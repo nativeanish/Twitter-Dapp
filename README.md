@@ -1,71 +1,43 @@
-By# Building Twitter again with solidity; 
+# Building Twitter again with solidity; 
 
-  
+## Introduction
+In this series, we will create a twitter-like decentralized application that will run without a centralized server and will run on the Celo blockchain. It is 2 part series in which we are on the first series where we will learn how to create a smart contract in solidity for decentralize Twitter and connect with a UI using ReactJs library.  
 
-  
+## Prerequisites
+- Basic knowledge of [Solidity](https://docs.soliditylang.org) programming language
+- Basic knowledge of working with Ethereum or Celo blockchain  
 
- ## Introduction
+Let's get to fundamentals about How Twitter works in real life. 
 
-  
+![Twitter Page](./direct.png) 
 
- In this series, we will create a twitter-like decentralized application that will run without a centralized server and will run on the celo blockchain. It is 2 part series in which we are on the first series where we will learn how to create a smart contract in solidity for Decentralize Twitter and connect with a UI using Reactjs Library.  
+When you hit twitter.com on the URL bar, it goes to Twitter's server and shares a ReactJs page from public cloud storage resources available in Twitter's data center to you on your browser which is compiled then with Javascript engine and rendered on your screen. According to your preferences, you use the functionality and features of Twitter with proper authorization. But what is the problem with the traditional method of sharing and receiving data from Twitter? 
 
-  
+The problem is with our data and its privacy policy. When we signup on Twitter, we agree with their terms and condition which states that they will share our data with 3rd party app which is not known to the general public and us. We need to confide our trust with Twitter. So there is not enough trust build with Twitter because we don't know what the heck they are doing with our data. Have you heard about big tech data breaches? 
 
- Prerequisite for this series is solidity and a bit of knowledge about how the ethereum ecosystem works as Celo ecosystem and core technologies are similar.
+Let's Deep Dive into Twitter's Decentralized Application that we are going to build.  
 
+![Decentralized Twitter Page](./blockchain.png) 
 
- Let's get to fundamentals about How Twitter works in real life. 
+**Now we need to ask some big and universal questions!**
 
- ![Twitter Page](./direct.png) 
+**How decentralization will help to solve the major issues above listed?** 
 
-  
+**And how the second diagram will solve the problem?**
 
-  
+This question will be staying along with our journey and will be answered by us in the last section by doing and understanding it. 
 
- When you hit twitter.com on the URL bar, It goes to the Twitter Server and shares a ReactJs page from public cloud storage resources available in Twitter's datacenter to you on your browser which is compiled then with javascript engine and rendered on your screen. And according to your preferences, use the functionality and features of Twitter with proper authorization. But what is the problem with the traditional method of sharing and receiving data from Twitter? 
+In our dapp which will be built by us in this series, we will use the Celo blockchain network (specially Alfajores testnet for testing and will be deployed on Mainnet network in Series 2)
 
-  
+## Intro to Solidity 
 
- The problem is with our data and its privacy policy. When we signup on Twitter, we agree with their Terms and Condition which states informal that they will share our data with 3rd party app which is not known to the General Public and us. We need to comprise our trust with Twitter. So there is not enough trust build with Twitter because we don't know what the heck they are doing with our data. Do you have heard about big tech data breaches? 
-
-  
-
- Let's Deep Dive into Twitter's Decentralized Application that we are going to build.  
-
-  
-
- ![Decentralized Twitter Page](./blockchain.png) 
-
-  
-
- <b>Now we need to ask some big and universal questions! How decentralization will help to solve the major issues above listed? And how the second diagram will solve the problem?</b> 
-
-  
-
- This question will be staying along with our journey and will be answered by us in the last section by doing and understanding it. 
-
-  
-
- In our Dapp which will be built by us in this series, we will use the celo blockchain network (specially Alfajores testnet for testing and will be deployed on Mainnet network in Series 2 .
-
-  
-
- ## Intro to Solidity 
-
-  
-
- ***Solidity is an object-oriented programming language for writing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum.*** 
+***Solidity is an object-oriented programming language for writing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum.*** 
 
  <p align="right">- Wikipedia</p> 
 
-  
+Solidity is an advanced programming language for implementing smart contracts on EVM (Ethereum Virtual Machine). It is highly influenced by Javascript, C++, Python and was created by Gavin Wood. It is a statically typed language where variables are explicitly declared.  
 
- Solidity is an advanced programming language for implementing smart contracts on EVM (Ethereum Virtual Machine). It is highly influenced by Javascript, C++, Python and was created by Gavin Wood. It is a statically typed language where variables are explicitly declared.  
-
- <p></p> 
-
- Solidity itself cannot be understood by Ethereum or Celo Virtual Machine, thus converted into EVM assembly or low-level byte code. There are other languages for interacting with EVM like Vyper, LLL, eWasm, and Huff, etc. 
+Solidity itself cannot be understood by Ethereum or Celo Virtual Machine, thus converted into EVM assembly or low-level byte code. There are other languages for interacting with EVM like Vyper, LLL, eWasm, and Huff, etc. 
 
   
 
