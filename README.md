@@ -117,7 +117,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
  ``` 
 
- At the start of the solidity code, we need to define the compiler version of solidity which will be helpful for getting the latest syntax and generating abi and bytecode. (ABI stands for Application Binary Interface which allows interaction with solidity outside the ethereum blockchain network. It is mainly helpful for UI which tends to invoke the contract method and properties. Bytecode are those op (operation code) code that is actually deployed on the celo blockchain network). The pragma keyword is used to tell the compiler about the version it needs to use and compile to this code with following solidity keyword and specific value set by us like above we set the latest version 0.8.9. 
+ At the start of the solidity code, we need to define the compiler version of solidity which will be helpful for getting the latest syntax and generating abi and bytecode. (ABI stands for Application Binary Interface which allows interaction with solidity outside the ethereum or celo blockchain network. It is mainly helpful for UI which tends to invoke the contract method and properties. Bytecode are those op (operation code) code that is actually deployed on the celo blockchain network). The pragma keyword is used to tell the compiler about the version it needs to use and compile to this code with following solidity keyword and specific value set by us like above we set the latest version 0.8.9. 
 
     
 
