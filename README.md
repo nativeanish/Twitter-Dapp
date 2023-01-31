@@ -199,7 +199,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
  ``` 
 
- For Now, we need to log our created Tweet on the ethereum network or also known as event log which stores tweet descriptions in transaction log. Solidity provides two special keywords called ```event``` which describes what event needs to store and also needs to define in solidity code, ```emit``` keyword is used for invoking an ```event``` which is stored on Transaction Log. 
+ For Now, we need to log our created Tweet on the celo network or also known as event log which stores tweet descriptions in transaction log. Solidity provides two special keywords called ```event``` which describes what event needs to store and also needs to define in solidity code, ```emit``` keyword is used for invoking an ```event``` which is stored on Transaction Log. 
 
   
 
