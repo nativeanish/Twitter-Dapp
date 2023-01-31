@@ -225,8 +225,7 @@ Celo blockchain uses the official golang implementation of the Ethereum protocol
 
  ``` 
 
- The above code states that there is a function named `createTweet` which takes a string as a parameter and is also available publicly that could be called with the Contract and returns a true variable as return type. Let's write some more code onto the `createTweet` function for creating Tweet on the celo blockchain network and logging the `Tweeting` event that was created in chapter 5. 
-
+ The above code states that there is a function named `createTweet` which takes a string as a parameter and is also available publicly that could be called with the Contract and returns a true variable as return type. Let's write some more code onto the `createTweet` function for creating Tweet on the celo blockchain network and logging the `Tweeting` event.
   
 
  ``` 
