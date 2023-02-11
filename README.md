@@ -350,4 +350,4 @@ What will we learn in part two of our series?
 
 (6) Answering to <b>some big and universal questions! How decentralization will help to solve the major issues listed above? And how the second diagram will solve the problem?</b>
 
-<b>If you have any suggestion or change you think it should be made then you can make a pull request or DM me on Github or Discord </b>
+<b>If you have any suggestion or change you think should be made then you can make a pull request or DM me on Github or Discord </b>
